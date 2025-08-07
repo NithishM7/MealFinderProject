@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    height: 80px;
+    background-color: red;
+}
+
+#kitchen{
+    position: absolute;
+    /* left: 275px; */
+    top: 32px;
+    color: white;
+}
+
+#peru{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    color: white;
+}
+
+#toggleMenu{
+    color: white;
+    border: none;
+    background-color: red;
+    position: absolute;
+    left: 96.7vw;
+    top: 18px;
+}
+
+#categoryMenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background: white;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+  padding: 20px;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+#categoryMenu.hidden {
+  transform: translateX(100%);
+}
+
+#closeMenu {
+  background: none;
+  border: none;
+  font-size: 22px;
+  float: right;
+  cursor: pointer;
+}
+
+
+#categoryList {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+#categoryList li {
+  padding: 10px 0;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.category-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(10px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.category-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.category-card img {
+  width: 80%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.category-card p {
+  padding: 10px;
+  font-weight: bold;
+}

@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const closeMenu = document.getElementById("closeMenu");
   const searchBtn = document.getElementById("searchBtn");
   const searchInput = document.getElementById("searchInput");
+  const searchCategory = document.getElementById("searchCategory");
 
   // Show/Hide sidebar
   toggleMenu.addEventListener("click", () => {

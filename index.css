@@ -8,7 +8,6 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
   margin: 0;
-  /* padding: 20px; */
 }
 
 #header{
@@ -111,7 +110,6 @@ body {
   text-align: center;
   color: white;
 }
-
 
 .category-section {
   padding: 40px;

@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", () => {
   const main = document.querySelector("main");
   const categoriesContainer = document.getElementById("categoriesContainer");
